@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const baseUrl = "http://127.0.0.1:8000"
+// const baseUrl = "http://127.0.0.1:8000"
+const baseUrl = 'https://image-upload-test-server.fly.dev'
 
 export const getToken = ({ auth, username, password }) => {
   axios.post(`${baseUrl}/token/`, {
