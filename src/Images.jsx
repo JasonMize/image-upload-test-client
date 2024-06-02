@@ -25,7 +25,7 @@ const Images = () => {
         <div key={image.id}>
           <h4>{image.title}</h4>
           <img 
-            src={`${baseUrl}/${image.image}`}  
+            src={`${baseUrl}${image.image}`}  
             style={{ width: '30%' }}
           />
         </div>
